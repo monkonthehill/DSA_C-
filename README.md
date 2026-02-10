@@ -1,74 +1,119 @@
-# dsa_cpp_monkonthehill
+📘 Data Structures & Algorithms in C++ (Learning Repo)
 
-This repository contains my **Data Structures and Algorithms (DSA)** practice implemented in **C++**.
+This repository documents my hands-on learning journey in Data Structures and Algorithms using C++.
 
-The purpose of this repo is to:
-- Build strong fundamentals in DSA
-- Practice core algorithms and problem-solving patterns
-- Maintain a growing collection of clean, understandable C++ implementations
+I’m actively practicing fundamentals, implementing algorithms from scratch, and improving my problem-solving skills.
+This repo evolves as my understanding gets better.
 
-This is a **learning-focused repository**, not a polished library.
+🎯 Why this repository exists
 
----
+Build strong DSA fundamentals
 
-## 🛠 Language Used
-- **C++**
+Improve logical thinking & debugging
 
----
+Prepare for coding interviews
 
-## 📂 Contents
+Learn C++ by writing real algorithmic code
 
-The repository currently includes implementations of:
+This is a learning repository, not a showcase of perfect solutions.
 
-### 🔁 Arrays & Basic Problems
-- `reversearray.cpp`
-- `reversearray_Q1.cpp`
-- `rotatearray.cpp`
-- `RotateArray1.cpp`
-- `movezeros.cpp`
-- `mergeArrays.cpp`
-- `checkSortedArray.cpp`
-- `firstandlastoccurance.cpp`
+📚 Topics Covered (so far)
+Arrays
 
-### 🔍 Searching
-- `binarysearch.cpp`
+Reverse array
 
-### 📊 Sorting Algorithms
-- `bubble_sort.cpp`
-- `selection_sort_algo.cpp`
-- `insertion_sort.cpp`
+Rotate array
 
-### 🧠 Concepts & Practice
-- `timeandspace.cpp`
-- `doubly_ended_array.cpp`
-- `list.cpp`
+Merge arrays
 
-### 🧪 Practice / Experimental
-- `try.cpp`
-- `trashcode.cpp`
+Move zeros
 
----
+Check sorted array
 
-## 🎯 Goals of This Repository
-- Understand **why** algorithms work, not just how
-- Improve logical thinking and edge-case handling
-- Build confidence for coding interviews and competitive programming
+Add two numbers represented as arrays
 
----
+Searching
 
-## ⚠️ Notes
-- Code quality may vary as this repo reflects my **learning progression**
-- Some files may contain experimental or temporary code
-- Improvements and refactors will be done over time
+Binary search
 
----
+First & last occurrence
 
-## 🚀 Future Plans
-- Add more advanced DSA topics (linked lists, stacks, queues, trees, graphs)
-- Optimize existing solutions
-- Add comments and explanations where needed
+Sorting
 
----
+Bubble sort
 
-## 📌 Disclaimer
+Insertion sort
+
+Selection sort
+
+Misc
+
+Time & space complexity notes
+
+Practice / scratch files
+
+🛠 Tech Stack
+
+Language: C++
+
+Focus: Logic > shortcuts
+
+Environment: g++, VS Code
+
+📈 Learning Philosophy
+
+Write it myself first
+
+Break it
+
+Fix edge cases
+
+Optimize later
+
+Consistency beats cleverness.
+
+🚧 Status
+
+🚀 Actively learning & updating
+
+📌 Note
+
+Some files may contain:
+
+Extra code
+
+Debug prints
+
+Inefficient logic
+
+That’s intentional — this repo reflects real learning, not polished tutorials.
+
+# 📊 DSA Progress Tracker
+
+## Arrays
+- [x] Reverse array
+- [x] Rotate array
+- [x] Merge arrays
+- [x] Move zeros
+- [x] Check sorted array
+- [x] Add two numbers (array form)
+
+## Searching
+- [x] Binary search
+- [x] First & last occurrence
+
+## Sorting
+- [x] Bubble sort
+- [x] Insertion sort
+- [x] Selection sort
+
+## Upcoming
+- [ ] Stacks
+- [ ] Queues
+- [ ] Linked Lists
+- [ ] Recursion basics
+- [ ] Two pointers
+- [ ] Sliding window
+- [ ] Hashing
+
 This repository is for **learning and practice purposes only**.
