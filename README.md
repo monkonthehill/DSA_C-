@@ -1,24 +1,24 @@
-#**📘 Data Structures & Algorithms in C++ (Learning Repo)
-**
+📘 Data Structures & Algorithms in C++ (Learning Repository)
+
 This repository documents my hands-on learning journey in Data Structures and Algorithms using C++.
 
-I’m actively practicing fundamentals, implementing algorithms from scratch, and improving my problem-solving skills.
-This repo evolves as my understanding gets better.
+I am actively practicing fundamentals, implementing algorithms from scratch, and improving my problem-solving and debugging skills.
+This repository evolves as my understanding improves.
 
-**🎯 Why this repository exists**
+🎯 Why This Repository Exists
 
 Build strong DSA fundamentals
 
-Improve logical thinking & debugging
+Improve logical thinking and debugging
 
 Prepare for coding interviews
 
-Learn C++ by writing real algorithmic code
+Learn C++ through real algorithmic practice
 
-This is a learning repository, not a showcase of perfect solutions.
+This is a learning repository, not a showcase of perfect or production-ready solutions.
 
-**#📚 Topics Covered (so far)
-Arrays**
+📚 Topics Covered (So Far)
+Arrays
 
 Reverse array
 
@@ -28,7 +28,7 @@ Merge arrays
 
 Move zeros
 
-Check sorted array
+Check if array is sorted
 
 Add two numbers represented as arrays
 
@@ -36,7 +36,7 @@ Searching
 
 Binary search
 
-First & last occurrence
+First and last occurrence
 
 Sorting
 
@@ -46,13 +46,13 @@ Insertion sort
 
 Selection sort
 
-Misc
+Miscellaneous
 
-Time & space complexity notes
+Time and space complexity notes
 
-Practice / scratch files
+Practice and scratch files
 
-**# 🛠 Tech Stack**
+🛠 Tech Stack
 
 Language: C++
 
@@ -60,8 +60,11 @@ Focus: Logic > shortcuts
 
 Environment: g++, VS Code
 
-**# 📈 Learning Philosophy
-**
+No external libraries.
+Core logic implemented manually to build understanding.
+
+📈 Learning Philosophy
+
 Write it myself first
 
 Break it
@@ -72,48 +75,69 @@ Optimize later
 
 Consistency beats cleverness.
 
-**# 🚧 Status
+🚧 Status
 
-# 🚀 Actively learning & updating
+🚀 Actively learning and updating
 
-#📌 Note**
+📌 Note
 
-##Some files may contain:
+Some files may contain:
 
-Extra code
+Extra or redundant code
 
-Debug prints
+Debug print statements
 
-Inefficient logic
+Inefficient or unoptimized logic
 
-That’s intentional — this repo reflects real learning, not polished tutorials.
+This is intentional.
+The repository reflects real learning, not polished tutorials.
 
-# 📊 DSA Progress Tracker
+📊 DSA Progress Tracker
+Arrays
 
-## Arrays
-- [x] Reverse array
-- [x] Rotate array
-- [x] Merge arrays
-- [x] Move zeros
-- [x] Check sorted array
-- [x] Add two numbers (array form)
+ Reverse array
 
-## Searching
-- [x] Binary search
-- [x] First & last occurrence
+ Rotate array
 
-## Sorting
-- [x] Bubble sort
-- [x] Insertion sort
-- [x] Selection sort
+ Merge arrays
 
-## Upcoming
-- [ ] Stacks
-- [ ] Queues
-- [ ] Linked Lists
-- [ ] Recursion basics
-- [ ] Two pointers
-- [ ] Sliding window
-- [ ] Hashing
+ Move zeros
 
-This repository is for **learning and practice purposes only**.
+ Check sorted array
+
+ Add two numbers (array form)
+
+Searching
+
+ Binary search
+
+ First & last occurrence
+
+Sorting
+
+ Bubble sort
+
+ Insertion sort
+
+ Selection sort
+
+Upcoming
+
+ Stacks
+
+ Queues
+
+ Linked Lists
+
+ Recursion basics
+
+ Two pointers
+
+ Sliding window
+
+ Hashing
+
+⚠️ Disclaimer
+
+This repository is for learning and practice purposes only.
+Do not treat it as a reference for optimized or production-level implementations.
