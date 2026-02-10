@@ -1,4 +1,4 @@
-📘 Data Structures & Algorithms in C++ (Learning Repo)
+#📘 Data Structures & Algorithms in C++ (Learning Repo)
 
 This repository documents my hands-on learning journey in Data Structures and Algorithms using C++.
 
@@ -17,7 +17,7 @@ Learn C++ by writing real algorithmic code
 
 This is a learning repository, not a showcase of perfect solutions.
 
-📚 Topics Covered (so far)
+#📚 Topics Covered (so far)
 Arrays
 
 Reverse array
@@ -52,7 +52,7 @@ Time & space complexity notes
 
 Practice / scratch files
 
-🛠 Tech Stack
+# 🛠 Tech Stack
 
 Language: C++
 
@@ -60,7 +60,7 @@ Focus: Logic > shortcuts
 
 Environment: g++, VS Code
 
-📈 Learning Philosophy
+# 📈 Learning Philosophy
 
 Write it myself first
 
@@ -72,13 +72,13 @@ Optimize later
 
 Consistency beats cleverness.
 
-🚧 Status
+# 🚧 Status
 
-🚀 Actively learning & updating
+# 🚀 Actively learning & updating
 
-📌 Note
+#📌 Note
 
-Some files may contain:
+##Some files may contain:
 
 Extra code
 
