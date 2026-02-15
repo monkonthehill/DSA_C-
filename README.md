@@ -112,6 +112,10 @@ The repository reflects **real learning**, not polished tutorials.
 - [ ] Hashing
 
 ---
+### Important points :
+* Computers store 2D arrays as one continuous, linear block of memory, typically in row-major order. To find the specific memory address of an element at array[i][j], the compiler uses this mathematical formula: 
+
+
 
 ## ⚠️ Disclaimer
 
