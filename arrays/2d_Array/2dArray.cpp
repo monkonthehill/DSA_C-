@@ -17,11 +17,11 @@ int main() {
 
   cout << "\nMatrix:\n";
 
-  // output
+  // input
   for (int i = 0; i < ROWS; i++) {
     for (int j = 0; j < COLS; j++) {
-      cout << arr[i][j] << " ";
+      cout << "Enter element [" << i << "][" << j << "]: ";
+      cin >> arr[i][j];
     }
-    cout << endl;
   }
 }
