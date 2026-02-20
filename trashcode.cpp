@@ -1,5 +1,6 @@
 #include <array>
 #include <iostream>
+#include <string>
 #include <vector>
 using namespace std;
 int main() {
@@ -40,18 +41,20 @@ int main() {
    for (int i = 0; i <= size; i++) {
      cout << " " << v1[i];
    }*/
-  const int ROWS = 3;
-  const int COLM = 3;
-  int arr[ROWS][COLM];
-  for (int i = 0; i < ROWS; i++) {
-    for (int j = 0; j < COLM; j++) {
-      cin >> arr[i][j];
-    }
-  }
-  for (int i = 0; i < ROWS; i++) {
-    for (int j = 0; j < COLM; j++) {
-      cout << arr[i][j];
-    }
-    cout << endl;
-  }
+  // const int ROWS = 3;
+  // const int COLM = 3;
+  // int arr[ROWS][COLM];
+  // for (int i = 0; i < ROWS; i++) {
+  //   for (int j = 0; j < COLM; j++) {
+  //     cin >> arr[i][j];
+  //   }
+  // }
+  // for (int i = 0; i < ROWS; i++) {
+  //   for (int j = 0; j < COLM; j++) {
+  //     cout << arr[i][j];
+  //   }
+  //   cout << endl;
+  // }
+  string s = "hello";
+  cout << s[1];
 }

@@ -25,25 +25,35 @@ n == matrix.length == matrix[i].length
 #include <iostream>
 #include <vector>
 using namespace std;
-vector<int> rotated_matrix(vector<vector<int>> &arr) {
-  vector<int> temp;
-  // intializing the indexes
-  int rows = arr.size();
-  int colm = arr[0].size();
-  int startingColm = 0;
-  int endingColm = colm - 1;
-  // intializing the loop veriables
-  int count = 0;
-  int total = rows * colm;
-  while (count < total) {
-    for (int i = endingColm; i >= 0; i--) {
-      temp.push_back(arr[i][startingColm]);
-      count++;
+void rotated_matrix(vector<vector<int>> &arr) {
+  // vector<int> temp;
+  // // intializing the indexes
+  // int rows = arr.size();
+  // int colm = arr[0].size();
+  // int startingColm = 0;
+  // int endingColm = colm - 1;
+  // // intializing the loop veriables
+  // int count = 0;
+  // int total = rows * colm;
+  // while (count < total) {
+  //   for (int i = endingColm; i >= 0; i--) {
+  //     temp.push_back(arr[i][startingColm]);
+  //     count++;
+  //   }
+  //
+  //   startingColm++;
+  // }
+  // return temp;
+  int n = arr.size();
+  for (int i = 0; i < n; i++) {
+    for (int j = i; j < n - 1 - i; j++) {
+      int temp = arr[i][j];
+      arr[i][j] = arr[j][n - i - 1];
+      arr[j][n - i - 1] = arr[n - i - 1][n - 1 - j];
+      arr[n - i - 1][n - 1 - j] = arr[n - 1 - j][i];
+      arr[n - 1 - j][i] = temp;
     }
-
-    startingColm++;
   }
-  return temp;
 }
 
 int main() {
@@ -60,10 +70,13 @@ int main() {
       cin >> arr[i][j];
     }
   }
-  vector<int> result = rotated_matrix(arr);
+  rotated_matrix(arr);
   // output
-  for (int i = 0; i < result.size(); i++) {
-    cout << result[i] << " ";
+  for (int i = 0; i < arr.size(); i++) {
+    for (int j = 0; j < arr.size(); j++) {
+      cout << arr[i][j] << " ";
+    }
+    cout << endl;
   }
   cout << endl;
 }
