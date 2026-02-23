@@ -3,6 +3,8 @@
 #include <string>
 #include <vector>
 using namespace std;
+void funct(int arr[3]) { arr[2] = 100; }
+
 int main() {
   /* array<int, 4> a{1, 2, 4, 5};
    int size = a.size();
@@ -55,6 +57,23 @@ int main() {
   //   }
   //   cout << endl;
   // }
-  string s = "hello";
-  cout << s[1];
+  // string s = "hello";
+  // cout << s[1];
+  // int tag;
+  // vector<int>arr={2,3,6,7,9,1,0};
+  // for (int i = 0; i < arr.size(); i++)
+  // {
+  //   cout<<arr[i]<<" ";
+  // }
+  int arr[3] = {
+      1,
+      2,
+      3,
+  };
+  funct(arr);
+  // wheneever an array is passed by value its not actually passed by value its
+  // pointer to the first element got passed
+  for (int i = 0; i < 3; i++) {
+    cout << arr[i] << " ";
+  }
 }
