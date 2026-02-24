@@ -1,2 +1,30 @@
+# C++ Project Ignore List
+
+# Compiled Object Files
+*.o
+*.obj
+
+# Compiled Binaries
+*.exe
+*.out
+*.app
+
+# macOS Finder files
 .DS_Store
 
+# IDE files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.idea/
+*.iml
+
+# CMake build directory
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Other files
+*.dep
+*.dSYM
