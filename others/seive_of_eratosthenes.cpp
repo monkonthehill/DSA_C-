@@ -27,5 +27,3 @@ int seiveOfEratosthenes(int n) {
   }
   return count;
 }
-.i wrote it with the help of documentation and also i wrote it in a
-    professional way

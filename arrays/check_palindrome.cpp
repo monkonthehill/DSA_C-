@@ -3,7 +3,7 @@
 // palindrome or not. For checking palindrome, consider alphabets and numbers
 // only and ignore the symbols and whitespaces.
 //
-// Note :
+// Note: addlkjjdl
 //
 // String 'str' is NOT case sensitive.
 // Example :
@@ -59,6 +59,5 @@ int main() {
     cout << "Palindrome\n";
   else
     cout << "Not Palindrome\n";
-
   return 0;
 }
