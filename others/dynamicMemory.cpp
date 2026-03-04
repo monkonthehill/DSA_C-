@@ -7,6 +7,5 @@ int main() {
   int *n = new int;
   // now lets give this memory a value of integer
   cout << "Print the variable n = " << *n;
-
   return 0;
 }
